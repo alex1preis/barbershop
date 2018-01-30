@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+</head>
+<body>
+   <header class="main_header">
+       <nav class="main_navigation">
+        <a class="main_header_logo" href="index.html">
+            <img src="images/logo.svg" width="111" height="24" alt="Логотип барбершопа "Бородинский"">
+         </a>
+          <ul class="site_navigation">
+              <li><a href="info.html">Информация</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="price.html">Прайс-лист</a></li>
+              <li class="site_navigation_current"><a href="#">Магазин</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+          <ul class="user_navigation">
+              <li class="login_link">Вход</li>
+          </ul> 
+       </nav>
+   </header>
+   <main class="container">
+      <h1 class="page_title">Средства для ухода</h1>
+      <ul class="breadcrumbs">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li class="breadcrumbs_current">Средства для ухода</li>
+      </ul>
+      <section class="filters">
+          <h2 class="visually_hidden">Фильтр товаров</h2>
+          <form class="filter" action="https://echo.htmlacademy.ru" method="get">
+            <fieldset>
+                <legend>Производители</legend>
+                <ul>
+                    <li class="filter_option"><input class="visually_hidden filter_input filter_input_checkbox" type="checkbox" name="baxter_of_california" checked> Baxter of California</li>
+                    <li class="filter_option"><input class="visually_hidden filter_input filter_input_checkbox" type="checkbox" name="mr_natty">Mr Natty</li>
+                    <li class="filter_option"><input class="visually_hidden filter_input filter_input_checkbox" type="checkbox" name="suavecito" checked>Suavecito</li>
+                    <li class="filter_option"><input class="visually_hidden filter_input filter_input_checkbox" type="checkbox" name="malin_goetz">Malin+Goetz</li>
+                    <li class="filter_option"><input class="visually_hidden filter_input filter_input_checkbox" type="checkbox" name="murrays">Murray's</li>
+                    <li class="filter_option"><input class="visually_hidden filter_input filter_input_checkbox" type="checkbox" name="american_crew" checked>American Crew</li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Группы товаров</legend>
+                <ul>
+                    <li class="filter_option"><input type="radio" class="visually_hidden filter_input filter_input_radio" name="product_group" value="shaving">
+                    Бритвенные принадлежности</li>
+                    <li class="filter_option"><input type="radio" class="visually_hidden filter_input filter_input_radio" name="product_group" value="hair_care" checked>Средства для ухода</li>
+                    <li class="filter_option"><input type="radio" class="visually_hidden filter_input filter_input_radio" name="product_group" value="accessories">Аксессуары</li>
+                </ul>
+            </fieldset>
+            <button class="filter_button button" type="submit">Показать</button>  
+          </form>
+      </section>
+      <section class="catalog">
+          <h2 class="visually_hidden">Список средств для ухода</h2>
+          <ul class="catalog_list">
+              <li class="catalog_item">
+                  <h3>
+                      <a href="catalog_item.html">
+                          <span class="catalog_category">Набор для путешествий</span>
+                          <span class="catalog_item_title">"Baxter of California"</span>
+                      </a>
+                  </h3>
+                  <p>
+                     <a href="catalog_item.html">
+                        <img src="images/product_1.jpg" alt="Набор для путешествий" width="220" height="165">
+                      </a>
+                  </p>
+                  <p class="catalog_item_price">
+                      <b>2900 р</b>
+                      <a href="#" class="button">Купить</a>
+                  </p>
+              </li>
+              <li class="catalog_item">
+                  <h3>
+                      <a href="catalog_item.html">
+                          <span class="catalog_category">Увлажняющий кондиционер</span>
+                          <span class="catalog_item_title">"Baxter of California"</span>
+                      </a>
+                  </h3>
+                  <p>
+                     <a href="catalog_item.html">
+                        <img src="images/product_2.jpg" alt="Набор для путешествий" width="220" height="165">
+                      </a>
+                  </p>
+                  <p class="catalog_item_price">
+                      <b>750 р</b>
+                      <a href="#" class="button">Купить</a>
+                  </p>
+              </li>
+              <li class="catalog_item">
+                  <h3>
+                      <a href="catalog_item.html">
+                          <span class="catalog_category">Гель для волос</span>
+                          <span class="catalog_item_title">"Suavecito"</span>
+                      </a>
+                  </h3>
+                  <p>
+                     <a href="catalog_item.html">
+                        <img src="images/product_3.jpg" alt="Набор для путешествий" width="220" height="165">
+                      </a>
+                  </p>
+                  <p class="catalog_item_price">
+                      <b>290 р</b>
+                      <a href="#" class="button">Купить</a>
+                  </p>
+              </li>
+              <li class="catalog_item">
+                  <h3>
+                      <a href="catalog_item.html">
+                          <span class="catalog_category">Глина для укладки волос</span>
+                          <span class="catalog_item_title">"American Crew"</span>
+                      </a>
+                  </h3>
+                  <p>
+                     <a href="catalog_item.html">
+                        <img src="images/product_1.jpg" alt="Набор для путешествий" width="220" height="165">
+                      </a>
+                  </p>
+                  <p class="catalog_item_price">
+                      <b>500 р</b>
+                      <a href="#" class="button">Купить</a>
+                  </p>
+              </li>
+              <li class="catalog_item">
+                  <h3>
+                      <a href="catalog_item.html">
+                          <span class="catalog_category">Гель для волос</span>
+                          <span class="catalog_item_title">"American Crew"</span>
+                      </a>
+                  </h3>
+                  <p>
+                     <a href="catalog_item.html">
+                        <img src="images/product_1.jpg" alt="Набор для путешествий" width="220" height="165">
+                      </a>
+                  </p>
+                  <p class="catalog_item_price">
+                      <b>300 р</b>
+                      <a href="#" class="button">Купить</a>
+                  </p>
+              </li>
+              <li class="catalog_item">
+                  <h3>
+                      <a href="catalog_item.html">
+                          <span class="catalog_category">Набор для бритья</span>
+                          <span class="catalog_item_title">"Baxter of California"</span>
+                      </a>
+                  </h3>
+                  <p>
+                     <a href="catalog_item.html">
+                        <img src="images/product_1.jpg" alt="Набор для путешествий" width="220" height="165">
+                      </a>
+                  </p>
+                  <p class="catalog_item_price">
+                      <b>3900 р</b>
+                      <a href="#" class="button">Купить</a>
+                  </p>
+              </li>
+          </ul>
+          <ul class="pagination_list">
+              <li class="pagination_item"><a href="#">1</a></li>
+              <li class="pagination_item"><a href="#">2</a></li>
+              <li class="pagination_item pagination_item_current"><a>3</a></li>
+              <li class="pagination_item"><a href="#">4</a></li>
+          </ul>
+        
+      </section> 
+   </main>
+   <footer class="main_footer">
+       <p class="footer_contacts">
+           Барбершоп "Бородинский"<br>
+            Адрес: г.Санкт-Петербург, Б.Конюшенная, д.19/8<br>
+            <a href="map.html">Как нас найти</a><br>
+            Телефон: +7 (812) 666-02-66
+       </p>
+       <div class="footer_social">
+           <b>Давайте дружить!</b>
+           <ul>
+               <li><a href="" class="social_button"></a>Вконтакте</li>
+               <li><a href="" class="social_button"></a>Фейсбук</li>
+               <li><a href="" class="social_button"></a>Инстаграм</li>
+           </ul>
+       </div>
+       <p class="footer_copyright">
+           <b>Разработано:</b>
+           <a href="https://htmlacademy.ru" class="button">HTML Academy</a>
+       </p>
+   </footer>
+   <section class="modal modal_login">
+       <h2>Личный кабинет</h2>
+       <p>Введите свой логин и пароль.</p>
+       <form action="https://echo.htmlacademy.ru" class="login_form" method="post">
+           <p>
+               <input type="text" class="login_icon_user" name="login" placeholder="Логин">
+           </p>
+           <p>
+               <input type="password" class="login_icon_password" name="password" placeholder="Пароль">
+           </p>
+           <p class="login_password_info">
+               <input type="checkbox" name="remember" class="visually_hidden">
+               Запомнить меня
+               <a href="#" class="restore">Я забыл пароль!</a>
+           </p>
+           <button class="button" type="submit">Войти</button>
+       </form>
+       <span class="modal_close">X</span>
+   </section>
+   <section class="modal modal_map">
+       <h2 class="visually_hidden">Как до нас добраться</h2>
+       <span class="modal_close">X</span>
+   </section>   
+ 
+</body>
+</html>

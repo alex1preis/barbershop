@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Цены</title>
+</head>
+<body>
+    <header class="main_header">
+       <nav class="main_navigation">
+        <a class="main_header_logo" href="index.html">
+            <img src="images/logo.svg" width="111" height="24" alt="Логотип барбершопа "Бородинский"">
+         </a>
+          <ul class="site_navigation">
+              <li><a href="info.html">Информация</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="price.html">Прайс-лист</a></li>
+              <li class="site_navigation_current"><a href="catalog.html">Магазин</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+          <ul class="user_navigation">
+              <li class="login_link">Вход</li>
+          </ul> 
+       </nav>
+   </header>
+   <main>
+      <h1>прайс-лист</h1>
+       <ul class="breadcrumbs">
+          <li><a href="index.html">Главная</a></li>
+          <li class="breadcrumbs_current">Прайс-лист</li>
+      </ul>
+      <p class="price_title">
+          <span>истинно мужская классика</span>
+      </p>
+      <section class="our_products">
+          <h2>мы используем только лучшие средства:</h2>
+          <ul class="price_product_list">
+              <li class="price_product_item">baxter of california</li>
+              <li class="price_product_item">mr natty</li>
+              <li class="price_product_item">suavecito</li>
+              <li class="price_product_item">malin+goetz</li>
+          </ul>
+      </section>
+      <section class="about_us">
+          <h2>несколько слов о нас:</h2>
+          <p class="about_us_text">
+              наша парикмахерская занимается исключительно мужскими стрижками. стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. мы не работаем на количество, мы делаем качество.
+          </p>
+      </section>
+      <section class="price_table">
+          <h2>цены на услуги наших мастеров:</h2>
+          <table>
+              <tr>
+                  <td>стрижка</td>
+                  <td>1500 р</td>
+              </tr>
+              <tr>
+                  <td>стрижка бороды</td>
+                  <td>500 р</td>
+              </tr>
+              <tr>
+                  <td>накрутка усов</td>
+                  <td>350 р</td>
+              </tr>
+          </table>
+      </section>
+      <section class="our_description">
+          <h2 class="visually_hidden">о нас</h2>
+          <p class="description_text">
+              наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+          </p>
+      </section>
+   </main>
+   <footer class="main_footer">
+       <p class="footer_contacts">
+           Барбершоп "Бородинский"<br>
+            Адрес: г.Санкт-Петербург, Б.Конюшенная, д.19/8<br>
+            <a href="map.html">Как нас найти</a><br>
+            Телефон: +7 (812) 666-02-66
+       </p>
+       <div class="footer_social">
+           <b>Давайте дружить!</b>
+           <ul>
+               <li><a href="" class="social_button"></a>Вконтакте</li>
+               <li><a href="" class="social_button"></a>Фейсбук</li>
+               <li><a href="" class="social_button"></a>Инстаграм</li>
+           </ul>
+       </div>
+       <p class="footer_copyright">
+           <b>Разработано:</b>
+           <a href="https://htmlacademy.ru" class="button">HTML Academy</a>
+       </p>
+   </footer>
+   <section class="modal modal_login">
+       <h2>Личный кабинет</h2>
+       <p>Введите свой логин и пароль.</p>
+       <form action="https://echo.htmlacademy.ru" class="login_form" method="post">
+           <p>
+               <input type="text" class="login_icon_user" name="login" placeholder="Логин">
+           </p>
+           <p>
+               <input type="password" class="login_icon_password" name="password" placeholder="Пароль">
+           </p>
+           <p class="login_password_info">
+               <input type="checkbox" name="remember" class="visually_hidden">
+               Запомнить меня
+               <a href="#" class="restore">Я забыл пароль!</a>
+           </p>
+           <button class="button" type="submit">Войти</button>
+       </form>
+       <span class="modal_close">X</span>
+   </section>
+   <section class="modal modal_map">
+       <h2 class="visually_hidden">Как до нас добраться</h2>
+       <span class="modal_close">X</span>
+   </section>
+</body>
+</html>
